@@ -11,4 +11,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	By using command git diff I can check what are changes that have been made between the files in the working directory and staging area, and only after confirming with above method we can be assured to proceed with the commit. If in a case where you are not satisfied with the changes you can discard the changes using git reset --hard, note that this is not reversible step.
 
+ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ 	Trying out a new feature to be added which mostly will be experimental since it's not sure if that feature will work or be useful, Also there is something as pull request so, branches help in managing these too.
+
  
