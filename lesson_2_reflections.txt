@@ -2,3 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	A hidden directory is created named as .git where git holds all the info and repository in.
 	This is the initial step if one wants to use git integration for his/her project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	It is different in the sense that git uses it as the intermediate stage between the working directory and the repository. It enables a convinient way for git to hold various files added per functionality or logical change.
+
