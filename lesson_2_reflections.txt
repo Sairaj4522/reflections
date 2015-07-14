@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	A hidden directory is created named as .git where git holds all the info and repository in.
+	This is the initial step if one wants to use git integration for his/her project.
