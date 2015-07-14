@@ -7,3 +7,8 @@ How is the staging area different from the working directory and the repository?
 
 	It is different in the sense that git uses it as the intermediate stage between the working directory and the repository. It enables a convinient way for git to hold various files added per functionality or logical change.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using command git diff I can check what are changes that have been made between the files in the working directory and staging area, and only after confirming with above method we can be assured to proceed with the commit. If in a case where you are not satisfied with the changes you can discard the changes using git reset --hard, note that this is not reversible step.
+
+ 
