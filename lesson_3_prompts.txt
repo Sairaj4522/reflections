@@ -32,3 +32,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 	Word to word, in person, over chat client, using mails and other communication stuff.
 	But without Git or GitHub it would be insanely tedious.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When I want to work on a bug or feature and also if I want to make pull request on GitHub.
+	By choosing to push changes in a separate branch, it will keep the master branch free from
+	problems/bugs which may be introduced while tackling bug or feature in the different branch. 
