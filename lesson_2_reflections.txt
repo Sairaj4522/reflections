@@ -27,4 +27,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 
  What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
- 	
+ 	pros:
+ 		- A step redundancy in whole git process of updating a branch
+
+ 	cons:
+ 		No control over the merges
+ 		Code could become buggy because of the whole automation
