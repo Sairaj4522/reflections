@@ -15,4 +15,16 @@ How can you use the staging area to make sure you have one commit per logical ch
 
  	Trying out a new feature to be added which mostly will be experimental since it's not sure if that feature will work or be useful, Also there is something as pull request so, branches help in managing these too.
 
- 
+ How do the diagrams help you visualize the branch structure?
+
+ 	If you have a complex branch structure or in other words if you have many branches then getting info from 
+ 		git log --graph -oneline master coins easy-mode
+ 	we can construct a diagram which simplifies the understanding the branch heirarchy than a command line output by above command.
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ 	Merging two branches means to combine the two branches into one in a way that it doesn't create problems onece the two versions are combined.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ 	
