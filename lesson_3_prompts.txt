@@ -27,3 +27,8 @@ What is the benefit of having a copy of the last known state of the remote store
 	isn't there in other, eg. in local repo you have a commit yet to push and simultaneously there's
 	another commit on remote side which may have been led by your own actions or an collaborater have
 	done that.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Word to word, in person, over chat client, using mails and other communication stuff.
+	But without Git or GitHub it would be insanely tedious.
