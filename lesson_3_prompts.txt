@@ -9,3 +9,13 @@ Why might you want to always pull changes manually rather than having Git automa
 	Well, if pull was automated then push should also be automated and even commit and all 
 	other stuff we do with git on the command line. But, they are not because its about 
 	control over a repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Fork is a cool feature on GitHub which lets you clone some repositories into your account on their server.
+	this is different to creating branches or cloning a repo, in a way that fork happens on the GitHub account
+	(more specifically on GitHub server/system) whereas, branches can be created on local repo as well on GitHub hosted repo,
+	and cloning just copies the repo from other source to local system.
+	Hence when I want to make some changes on a ongoing project on GitHub I will fork it since I wouldn't have explicit rights
+	over that repo project. So I will have to get it on my account, and to work on the code I'll have to clone the forked repo
+	and start working on it, here I can also create branches to try out a new feature or to bug fix.
