@@ -3,3 +3,9 @@ When would you want to use a remote repository rather than keeping all your work
   First thing will be to collaborate with others with a project may be its an open source project or
   another projct you want to share code with your colleagues and also its better to have your project
    hosted on some server, which will allow to have a backup in case of loss of local data. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Well, if pull was automated then push should also be automated and even commit and all 
+	other stuff we do with git on the command line. But, they are not because its about 
+	control over a repository.
