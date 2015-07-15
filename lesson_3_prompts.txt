@@ -19,3 +19,11 @@ Describe the differences between forks, clones, and branches. When would you use
 	Hence when I want to make some changes on a ongoing project on GitHub I will fork it since I wouldn't have explicit rights
 	over that repo project. So I will have to get it on my account, and to work on the code I'll have to clone the forked repo
 	and start working on it, here I can also create branches to try out a new feature or to bug fix.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	That way git will be able to know how/where to merge in the branch hierarchy. More accurately
+	git will able to decide whether current pull is a fast forward merge or conflict where one commit
+	isn't there in other, eg. in local repo you have a commit yet to push and simultaneously there's
+	another commit on remote side which may have been led by your own actions or an collaborater have
+	done that.
