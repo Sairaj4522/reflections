@@ -37,4 +37,7 @@ When would you want to make changes in a separate branch rather than directly in
 
 	When I want to work on a bug or feature and also if I want to make pull request on GitHub.
 	By choosing to push changes in a separate branch, it will keep the master branch free from
-	problems/bugs which may be introduced while tackling bug or feature in the different branch. 
+	problems/bugs which may be introduced while tackling bug or feature in the different branch.
+	Oh yeah and also the fact that the master code is important and is the main branch which is
+	used to push releases of the project and hence keeping the master branch clean is kind of a
+	priority.
